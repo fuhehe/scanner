@@ -1,0 +1,32 @@
+{
+	"name": "fuehe/scanner",
+	"description": "scan URLs from a CSV file and report inaccessible URLs",
+	"keywords": ["url", "scanner", "csv"],
+	"homepage": "https://github.com/fuhehe",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "fuhehe",
+			"homepage": "https://github.com/fuhehe",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "9860598@qq.com"
+	},
+    "require": {
+		"php": ">=5.4.0"
+        "guzzlehttp/guzzle": "^6.1",
+    },
+	"require-dev": {
+		"phpunit/phpunit": "~4.3"
+	},
+	"suggest": {
+        "league/csv": "^8.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Fuhehe\\ModernPHP\\": "src/"
+		}
+	}
+}
